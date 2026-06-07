@@ -1,0 +1,121 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e5]:
+      - navigation [ref=e6]:
+        - link "Auralyn" [ref=e7] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e8]:
+          - link "Features" [ref=e9] [cursor=pointer]:
+            - /url: "#features"
+          - link "Product" [ref=e10] [cursor=pointer]:
+            - /url: "#preview"
+          - link "Security" [ref=e11] [cursor=pointer]:
+            - /url: "#security"
+        - link "Start Free" [ref=e12] [cursor=pointer]:
+          - /url: "#start"
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - paragraph [ref=e15]: AI voice intelligence for meetings, calls, and conversations.
+          - heading "AI that listens, understands, and remembers" [level=1] [ref=e16]
+          - paragraph [ref=e17]: Auralyn captures meetings, calls, and voice notes, then turns them into summaries, action items, searchable transcripts, and useful insights for your team.
+          - generic [ref=e18]:
+            - link "Try Auralyn Free" [ref=e19] [cursor=pointer]:
+              - /url: "#start"
+            - link "See How It Works" [ref=e20] [cursor=pointer]:
+              - /url: "#preview"
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - paragraph [ref=e25]: Live meeting
+              - heading "Product sync summary" [level=2] [ref=e26]
+            - generic [ref=e27]: 92% clarity
+          - generic [ref=e29]:
+            - generic [ref=e30]: 00:18:42
+            - generic [ref=e31]: 3 speakers
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - paragraph [ref=e46]: Decisions
+              - paragraph [ref=e47]: Launch review moves to Friday. Pricing questions join the shared decision log.
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: Next steps
+              - paragraph [ref=e50]: Jordan shares client notes. Maya prepares the launch agenda.
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - paragraph [ref=e53]: Maya
+              - paragraph [ref=e54]: Let's move the launch review to Friday and share the client notes before then.
+            - generic [ref=e55]:
+              - paragraph [ref=e56]: Auralyn
+              - paragraph [ref=e57]: "Action item found: Jordan owns client notes. Due Friday."
+            - generic [ref=e58]:
+              - paragraph [ref=e59]: Jordan
+              - paragraph [ref=e60]: I'll also add the pricing questions to the shared decision log.
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - paragraph [ref=e64]: The problem
+        - heading "Meetings are easy to forget." [level=2] [ref=e65]
+      - paragraph [ref=e66]: Important context often disappears into scattered notes, missed follow-ups, and vague memories. Auralyn turns voice into a calm, searchable record your team can trust after the call ends.
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - paragraph [ref=e70]: Features
+        - heading "Turn every conversation into clear action." [level=2] [ref=e71]
+      - generic [ref=e72]:
+        - article [ref=e73]:
+          - heading "Smart Meeting Notes" [level=3] [ref=e76]
+          - paragraph [ref=e77]: Automatically capture key points, decisions, and next steps from every meeting.
+        - article [ref=e78]:
+          - heading "Accurate Transcription" [level=3] [ref=e81]
+          - paragraph [ref=e82]: Turn voice into clean, searchable text across meetings, calls, and recorded audio.
+        - article [ref=e83]:
+          - heading "Action Item Detection" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Auralyn identifies tasks, owners, and follow-ups so nothing gets lost after the call.
+        - article [ref=e88]:
+          - heading "Conversation Search" [level=3] [ref=e91]
+          - paragraph [ref=e92]: Search across past meetings and audio notes to quickly find what was said and when.
+        - article [ref=e93]:
+          - heading "Team Knowledge Memory" [level=3] [ref=e96]
+          - paragraph [ref=e97]: Build a voice-powered memory of your team's discussions, decisions, and ideas.
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - paragraph [ref=e102]: Product preview
+          - heading "From conversation to clarity." [level=2] [ref=e103]
+          - paragraph [ref=e104]: Review summaries, owners, transcript moments, and topic patterns from one quiet workspace built for real follow-through.
+        - generic [ref=e105]:
+          - generic [ref=e106]: Team meetings
+          - generic [ref=e107]: Sales calls
+          - generic [ref=e108]: User interviews
+          - generic [ref=e109]: Lectures
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - heading "Meeting memory" [level=3] [ref=e113]
+            - generic [ref=e114]: 12 insights
+          - generic [ref=e115]:
+            - generic [ref=e116]: Customer onboarding is blocked by unclear billing language.
+            - generic [ref=e117]: Sales wants a shorter demo path for procurement teams.
+            - generic [ref=e118]: Design and engineering agreed on the Friday review date.
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - paragraph [ref=e121]: Transcript coverage
+            - paragraph [ref=e122]: 98%
+          - generic [ref=e123]:
+            - paragraph [ref=e124]: Open action items
+            - paragraph [ref=e125]: "7"
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - paragraph [ref=e129]: Trust
+        - heading "Calm AI for sensitive conversations." [level=2] [ref=e130]
+      - generic [ref=e131]:
+        - generic [ref=e132]: Private team workspaces
+        - generic [ref=e133]: Controlled sharing
+        - generic [ref=e134]: Searchable audit-friendly records
+        - generic [ref=e135]: Human-centered summaries
+    - generic [ref=e137]:
+      - heading "Never lose the meaning of a conversation again." [level=2] [ref=e150]
+      - paragraph [ref=e151]: Capture every meeting, summarize every detail, and turn voice into action with Auralyn.
+      - generic [ref=e152]:
+        - link "Start Free" [ref=e153] [cursor=pointer]:
+          - /url: "#"
+        - link "Watch Demo" [ref=e154] [cursor=pointer]:
+          - /url: "#preview"
+  - alert [ref=e155]

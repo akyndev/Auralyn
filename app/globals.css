@@ -1,26 +1,68 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #080B12; /* Deep midnight blue */
+  --card-bg: rgba(255, 255, 255, 0.03);
+  --card-border: rgba(255, 255, 255, 0.06);
+  --text-main: #F3F4F6;
+  --text-muted: #A1A1AA; /* Warm gray */
+  --lavender-glow: rgba(167, 139, 250, 0.15);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Subtle glow utilities */
+.lavender-glow-bg {
+  background: radial-gradient(circle at 50% 0%, var(--lavender-glow), transparent 60%);
+}
+
+.glass-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  backdrop-filter: blur(12px);
+}
+
+/* Waveform Animation */
+.waveform-bar {
+  animation: equalize 1.5s infinite ease-in-out alternate;
+}
+
+.waveform-bar:nth-child(1) { animation-delay: 0.1s; }
+.waveform-bar:nth-child(2) { animation-delay: 0.4s; }
+.waveform-bar:nth-child(3) { animation-delay: 0.2s; }
+.waveform-bar:nth-child(4) { animation-delay: 0.6s; }
+.waveform-bar:nth-child(5) { animation-delay: 0.3s; }
+.waveform-bar:nth-child(6) { animation-delay: 0.5s; }
+
+@keyframes equalize {
+  0% { height: 12px; }
+  100% { height: 48px; }
+}
+
+/* Soft entry animations */
+.animate-fade-up {
+  animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
